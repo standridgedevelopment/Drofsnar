@@ -1,0 +1,21 @@
+C:\ElevenFiftyProjects\SD 65\CSHARPFundamentals\Drofsnar!\bin\Debug\Drofsnar!.exe.config
+C:\ElevenFiftyProjects\SD 65\CSHARPFundamentals\Drofsnar!\bin\Debug\Drofsnar!.exe
+C:\ElevenFiftyProjects\SD 65\CSHARPFundamentals\Drofsnar!\bin\Debug\Drofsnar!.pdb
+C:\ElevenFiftyProjects\SD 65\CSHARPFundamentals\Drofsnar!\obj\Debug\Drofsnar!.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\SD 65\CSHARPFundamentals\Drofsnar!\obj\Debug\Drofsnar!.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\SD 65\CSHARPFundamentals\Drofsnar!\obj\Debug\Drofsnar!.exe
+C:\ElevenFiftyProjects\SD 65\CSHARPFundamentals\Drofsnar!\obj\Debug\Drofsnar!.pdb
+C:\ElevenFiftyProjects\SD 65\Drofsnar\bin\Debug\Drofsnar!.exe.config
+C:\ElevenFiftyProjects\SD 65\Drofsnar\bin\Debug\Drofsnar!.exe
+C:\ElevenFiftyProjects\SD 65\Drofsnar\bin\Debug\Drofsnar!.pdb
+C:\ElevenFiftyProjects\SD 65\Drofsnar\obj\Debug\Drofsnar!.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\SD 65\Drofsnar\obj\Debug\Drofsnar!.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\SD 65\Drofsnar\obj\Debug\Drofsnar!.exe
+C:\ElevenFiftyProjects\SD 65\Drofsnar\obj\Debug\Drofsnar!.pdb
+C:\Drofsnar\bin\Debug\Drofsnar!.exe.config
+C:\Drofsnar\bin\Debug\Drofsnar!.exe
+C:\Drofsnar\bin\Debug\Drofsnar!.pdb
+C:\Drofsnar\obj\Debug\Drofsnar!.csprojAssemblyReference.cache
+C:\Drofsnar\obj\Debug\Drofsnar!.csproj.CoreCompileInputs.cache
+C:\Drofsnar\obj\Debug\Drofsnar!.exe
+C:\Drofsnar\obj\Debug\Drofsnar!.pdb
