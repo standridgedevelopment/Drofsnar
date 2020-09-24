@@ -17,7 +17,7 @@ namespace Drofsnar_
         {
             System.Media.SoundPlayer sound =
             new System.Media.SoundPlayer();
-            sound.SoundLocation = @"\ElevenFiftyProjects\SD 65\Drofsnar\pacman_beginning.wav";
+            sound.SoundLocation = @"\Drofsnar\pacman_beginning.wav";
             sound.Load();
             sound.Play();
             Thread.Sleep(5000);
