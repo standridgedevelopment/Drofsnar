@@ -15,14 +15,15 @@ namespace Drofsnar_
        
         static void Main(string[] args)
         {
-            System.Media.SoundPlayer sound =
+            /*System.Media.SoundPlayer sound =
             new System.Media.SoundPlayer();
             sound.SoundLocation = @"\Drofsnar\pacman_beginning.wav";
             sound.Load();
             sound.Play();
-            Thread.Sleep(5000);
+            Thread.Sleep(5000);*/
             Drofsnar player = new Drofsnar(5000, 3);
             
+
 
 
             string[] gameInput = System.IO.File.ReadAllText(@"\Drofsnar\GameInput.txt").Split(',');

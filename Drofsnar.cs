@@ -45,10 +45,12 @@ namespace Drofsnar_
         {
             _score += creature.Value;
             _elScore += creature.Value;
-            Console.WriteLine($"You have saved a {creature.Name}");
-            Console.WriteLine($"+{creature.Value} points");
+            
             if (creature.Name == "Bird")
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"You have saved a {creature.Name}");
+                Console.WriteLine($"+{creature.Value} points");
                 System.Media.SoundPlayer sound =
                 new System.Media.SoundPlayer();
                 sound.SoundLocation = @"\Drofsnar\munch_1.wav";
@@ -64,6 +66,9 @@ namespace Drofsnar_
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine($"You have saved a {creature.Name}");
+                Console.WriteLine($"+{creature.Value} points");
                 System.Media.SoundPlayer sound =
                 new System.Media.SoundPlayer();
                 sound.SoundLocation = @"\Drofsnar\Pacman_Eating_Cherry_Sound_Effect.wav";
@@ -79,8 +84,13 @@ namespace Drofsnar_
         public void EatBirdHunter()
         {
             _hunterCount += 1;
-            if (_stopperCount == 0) { LoseLife(); }
+            if (_stopperCount == 0) 
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                LoseLife(); 
+            }
             else {
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 System.Media.SoundPlayer sound =
                 new System.Media.SoundPlayer();
                 sound.SoundLocation = @"\Drofsnar\eat_ghost.wav";
@@ -122,6 +132,7 @@ namespace Drofsnar_
         }
         public void EatStopper()
         {
+            Console.ForegroundColor = ConsoleColor.White;
             stopper = true;
             _stopperCount += 6;
             Console.WriteLine("You got a Stopper! You have 5 seconds to turn the tables on those Bird Hunters!");
@@ -144,6 +155,7 @@ namespace Drofsnar_
         }
         public void ExtraLife()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             _elScore -= 10000;
             _lives += 1;
             Console.WriteLine($"You've reached 10,000 points! That deserves an extra life!");
